@@ -23,6 +23,7 @@ public class DialogManager : MonoBehaviour
     public void StartDialog(Dialog dialog)
     {
         currentDialogIndex = 0;
+        currentDialog = dialog;
         Debug.Log("Se inicia el dialogo");
         OnDialogStart?.Invoke(dialog.interactions[currentDialogIndex]);
     }
@@ -30,8 +31,15 @@ public class DialogManager : MonoBehaviour
     public void NextDialog()
     {
         currentDialogIndex++;
-        Interaction nextInteraction = currentDialog.interactions[currentDialogIndex];
-        OnDialogNext?.Invoke(nextInteraction);
+        if (currentDialogIndex < currentDialog.interactions.Count)
+        {
+            Interaction nextInteraction = currentDialog.interactions[currentDialogIndex];
+            OnDialogNext?.Invoke(nextInteraction);
+        }
+        else
+        {
+            FinishDialog();
+        }
     }
 
     public void FinishDialog()

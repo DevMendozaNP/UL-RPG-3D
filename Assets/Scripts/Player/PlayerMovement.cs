@@ -11,11 +11,20 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private Vector2 moveDir;
     private Animator animator;
+    private PlayerInput playerInput;
+    
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
+        playerInput = GetComponent<PlayerInput>();
+    }
+
+    private void Start()
+    {
+        DialogManager.Instance.OnDialogStart += OnDialogStartDelegate;
+        DialogManager.Instance.OnDialogFinish += OnDialogFinishDelegate;
     }
 
     private void Update()
@@ -26,6 +35,18 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity.y,
             moveDir.y * speed.z
         );
+    }
+    
+    public void OnDialogStartDelegate(Interaction interaction)
+    {
+        //Cambiar el input map a modo Dialog
+        playerInput.SwitchCurrentActionMap("Dialog");
+    }
+
+    public void OnDialogFinishDelegate()
+    {
+        //Cambiar el input map a modo Player
+        playerInput.SwitchCurrentActionMap("Player");
     }
 
     private void OnMovement(InputValue value)
@@ -41,6 +62,16 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             animator.SetBool("IsWalking", false);
+        }
+    }
+
+    private void OnNextInteraction(InputValue value)
+    {
+        if(value.isPressed)
+        {
+            //Siguiente dialogo
+            Debug.Log("Siguiente dialogo");
+            DialogManager.Instance.NextDialog();
         }
     }
 
