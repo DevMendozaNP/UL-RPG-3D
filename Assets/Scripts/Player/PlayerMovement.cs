@@ -43,4 +43,14 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("IsWalking", false);
         }
     }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        Dialog dialog = other.collider.transform.GetComponent<Dialog>();
+        if (dialog != null)
+        {
+            // Iniciar sistema de dialogos
+            DialogManager.Instance.StartDialog(dialog);
+        }
+    }
 }
