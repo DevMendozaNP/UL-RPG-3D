@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 72ce51801b3edde4b8b9c44777006feb
+guid: b639d27618e92e443823f7499e1be558
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 80
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mummy_idle_0
+      name: Beholder_attack (purple)_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c124189021bf0cb40be088fb6a2968e5
-      internalID: -1460513672
+      spriteID: b921a62d087dd004eaecd92ffae7ba1a
+      internalID: -375856266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_1
+      name: Beholder_attack (purple)_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
+        x: 128
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 197aba1ce28237248ae418ebf1ae52ec
-      internalID: -1506427924
+      spriteID: 363193f927502e74d8835472731a0c3e
+      internalID: 1230226811
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_2
+      name: Beholder_attack (purple)_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 96
-        width: 32
-        height: 32
+        x: 256
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 309927404737f914d8c5c1efaf05affb
-      internalID: -26570360
+      spriteID: 609886b94c8c49041bd3a01a223075aa
+      internalID: -1537037899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_3
+      name: Beholder_attack (purple)_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
+        x: 384
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 640522531debed04bac0b0fb5eb42a88
-      internalID: 1474274941
+      spriteID: 76786f442263b604ba1fc26d5f356f7e
+      internalID: -1757308189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_4
+      name: Beholder_attack (purple)_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
-        width: 32
-        height: 32
+        x: 512
+        y: 384
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,83 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f97feae64134f2f428db92b508587390
-      internalID: -1300403451
+      spriteID: ff9afbba5a878dd498c5a6f66276af5d
+      internalID: 1588264653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 282649aa37cca914199d736fbb5a9b19
-      internalID: -1620441777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mummy_idle_6
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bf58813b86557a45bd914989f13aea5
-      internalID: -1417895710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mummy_idle_7
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c4e53965a6fd22d4a8b4363af7db9d9e
-      internalID: 1735886171
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mummy_idle_8
+      name: Beholder_attack (purple)_5
       rect:
         serializedVersion: 2
         x: 0
-        y: 32
-        width: 32
-        height: 32
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af5408c975272ae4da483c5d7e3fa348
-      internalID: -1756198405
+      spriteID: 13686b6d4195d7f4da9b4384187c1a1f
+      internalID: -998467815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_9
+      name: Beholder_attack (purple)_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
+        x: 128
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d789185966c51d48b49fa0cda4fed78
-      internalID: 370350041
+      spriteID: 323cc4f34f09a624a92bbd23a3698fd3
+      internalID: 1675077139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_10
+      name: Beholder_attack (purple)_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
+        x: 256
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e5fa404d9baf4443be5b35d309422d3
-      internalID: -192967516
+      spriteID: 2dcb714c663d1d248a732ac2c0303a86
+      internalID: 1379722344
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_11
+      name: Beholder_attack (purple)_8
       rect:
         serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
+        x: 384
+        y: 256
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +305,146 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b60bc8564246b7546aca370c417ef484
-      internalID: 935798465
+      spriteID: 0e0daba778fbf604f9d5ef039da657a5
+      internalID: -1776655475
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_12
+      name: Beholder_attack (purple)_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b336f16f3694234b975e612eb5c8fdf
+      internalID: 2046006432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_attack (purple)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06294f0f340986b4781577273ecbde71
+      internalID: -574523741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_attack (purple)_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99e5b2a4552793b46a27d976accdb93d
+      internalID: -437142220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_attack (purple)_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7769a5f29dd964890e6178ef17dd31
+      internalID: 1106860036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_attack (purple)_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad735d58f5e51d749b988af67390cf09
+      internalID: 482354343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_attack (purple)_14
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc8f87c60d56db4a9256071cddc2805
+      internalID: -975173557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_attack (purple)_15
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +452,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27f151830db804c4e9816fe317cc5e7b
-      internalID: 920430637
+      spriteID: 37a8169e76a2af94a895803e9ab2eec7
+      internalID: 811029275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_13
+      name: Beholder_attack (purple)_16
       rect:
         serializedVersion: 2
-        x: 32
+        x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -410,20 +473,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b18c17097471a04c8ad6f5acf73db0f
-      internalID: 709904430
+      spriteID: 14e01f13b9881604ca0d075b257fe3ea
+      internalID: 259120408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_14
+      name: Beholder_attack (purple)_17
       rect:
         serializedVersion: 2
-        x: 64
+        x: 256
         y: 0
-        width: 32
-        height: 32
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb93869192eff7644be12cd56cb2a2bd
-      internalID: 1476613796
+      spriteID: d633287c2b412b140b57eb3aac828052
+      internalID: 230023753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_15
+      name: Beholder_attack (purple)_18
       rect:
         serializedVersion: 2
-        x: 96
+        x: 384
         y: 0
-        width: 32
-        height: 32
+        width: 128
+        height: 128
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,8 +515,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f57d8aaaeba2fbe41979188467786697
-      internalID: 698482254
+      spriteID: 24d468c78db8a624ba2664eaf3ff36d9
+      internalID: 599876034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_attack (purple)_19
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367d22b37ad8a0947afa139e3060d0ad
+      internalID: -1645348392
       vertices: []
       indices: 
       edges: []
@@ -461,7 +545,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0faddcaec767747439a494aac8f5059c
+    spriteID: e32cb896dbbee31488dfd840f63447a5
     internalID: 0
     vertices: []
     indices: 
@@ -469,22 +553,26 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mummy_idle_0: -1460513672
-      Mummy_idle_1: -1506427924
-      Mummy_idle_10: -192967516
-      Mummy_idle_11: 935798465
-      Mummy_idle_12: 920430637
-      Mummy_idle_13: 709904430
-      Mummy_idle_14: 1476613796
-      Mummy_idle_15: 698482254
-      Mummy_idle_2: -26570360
-      Mummy_idle_3: 1474274941
-      Mummy_idle_4: -1300403451
-      Mummy_idle_5: -1620441777
-      Mummy_idle_6: -1417895710
-      Mummy_idle_7: 1735886171
-      Mummy_idle_8: -1756198405
-      Mummy_idle_9: 370350041
+      Beholder_attack (purple)_0: -375856266
+      Beholder_attack (purple)_1: 1230226811
+      Beholder_attack (purple)_10: -574523741
+      Beholder_attack (purple)_11: -437142220
+      Beholder_attack (purple)_12: 1106860036
+      Beholder_attack (purple)_13: 482354343
+      Beholder_attack (purple)_14: -975173557
+      Beholder_attack (purple)_15: 811029275
+      Beholder_attack (purple)_16: 259120408
+      Beholder_attack (purple)_17: 230023753
+      Beholder_attack (purple)_18: 599876034
+      Beholder_attack (purple)_19: -1645348392
+      Beholder_attack (purple)_2: -1537037899
+      Beholder_attack (purple)_3: -1757308189
+      Beholder_attack (purple)_4: 1588264653
+      Beholder_attack (purple)_5: -998467815
+      Beholder_attack (purple)_6: 1675077139
+      Beholder_attack (purple)_7: 1379722344
+      Beholder_attack (purple)_8: -1776655475
+      Beholder_attack (purple)_9: 2046006432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

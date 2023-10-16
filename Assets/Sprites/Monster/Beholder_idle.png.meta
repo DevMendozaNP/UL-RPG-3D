@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 72ce51801b3edde4b8b9c44777006feb
+guid: 7ac3d4cc82b81c0438c965842fcc5328
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 80
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mummy_idle_0
+      name: Beholder_idle_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 96
-        width: 32
-        height: 32
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,41 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c124189021bf0cb40be088fb6a2968e5
-      internalID: -1460513672
+      spriteID: adc12aead9907e649a5c4ebe87fba7bc
+      internalID: -1696067046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 197aba1ce28237248ae418ebf1ae52ec
-      internalID: -1506427924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mummy_idle_2
+      name: Beholder_idle_1
       rect:
         serializedVersion: 2
         x: 64
-        y: 96
-        width: 32
-        height: 32
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 309927404737f914d8c5c1efaf05affb
-      internalID: -26570360
+      spriteID: be5dbd37073a3b544b731dd18746fd9c
+      internalID: -1315148925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_3
+      name: Beholder_idle_2
       rect:
         serializedVersion: 2
-        x: 96
-        y: 96
-        width: 32
-        height: 32
+        x: 128
+        y: 192
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +179,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 640522531debed04bac0b0fb5eb42a88
-      internalID: 1474274941
+      spriteID: 62e7b0b3545a94d43969b4bfcb1f5ff6
+      internalID: 20856368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_4
+      name: Beholder_idle_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e682e2e0bde8e194f8013177bef78c8c
+      internalID: -687266747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317da2baac8d59c4e80b134b8b091d64
+      internalID: 42253203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_idle_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44964edc2bfdac4cb35c274f8da0c33
+      internalID: -739582375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_idle_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269b44be978f9364d9500ef25f4eff2f
+      internalID: -260131193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_idle_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7782687a9543704f888e94276ee70ae
+      internalID: 1773067055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_idle_8
       rect:
         serializedVersion: 2
         x: 0
         y: 64
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,41 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f97feae64134f2f428db92b508587390
-      internalID: -1300403451
+      spriteID: 59f0d6edd9cf12640befd365a7ae13bb
+      internalID: 1419695558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_5
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 282649aa37cca914199d736fbb5a9b19
-      internalID: -1620441777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mummy_idle_6
+      name: Beholder_idle_9
       rect:
         serializedVersion: 2
         x: 64
         y: 64
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bf58813b86557a45bd914989f13aea5
-      internalID: -1417895710
+      spriteID: 7a6c679d670c3834382a065116317699
+      internalID: -332301757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_7
+      name: Beholder_idle_10
       rect:
         serializedVersion: 2
-        x: 96
+        x: 128
         y: 64
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,20 +347,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4e53965a6fd22d4a8b4363af7db9d9e
-      internalID: 1735886171
+      spriteID: 9260afe9c09820d4aa59c06ceef7632b
+      internalID: -1840322227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_8
+      name: Beholder_idle_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 32
-        height: 32
+        x: 192
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,83 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af5408c975272ae4da483c5d7e3fa348
-      internalID: -1756198405
+      spriteID: 50a31b24bede63848a43a9458c55b7cf
+      internalID: -559266102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_9
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d789185966c51d48b49fa0cda4fed78
-      internalID: 370350041
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mummy_idle_10
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e5fa404d9baf4443be5b35d309422d3
-      internalID: -192967516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mummy_idle_11
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b60bc8564246b7546aca370c417ef484
-      internalID: 935798465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mummy_idle_12
+      name: Beholder_idle_12
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,41 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27f151830db804c4e9816fe317cc5e7b
-      internalID: 920430637
+      spriteID: bb86bc97ad83137448d51d7c1f8ae172
+      internalID: -901096752
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_13
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b18c17097471a04c8ad6f5acf73db0f
-      internalID: 709904430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Mummy_idle_14
+      name: Beholder_idle_13
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -431,20 +410,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb93869192eff7644be12cd56cb2a2bd
-      internalID: 1476613796
+      spriteID: 23f9ee2815009a34382dd5d1a1187324
+      internalID: -1740564106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mummy_idle_15
+      name: Beholder_idle_14
       rect:
         serializedVersion: 2
-        x: 96
+        x: 128
         y: 0
-        width: 32
-        height: 32
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -452,8 +431,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f57d8aaaeba2fbe41979188467786697
-      internalID: 698482254
+      spriteID: 21a108433f3520c44871bc46521bf39d
+      internalID: 2071802600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beholder_idle_15
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff9ac6faf1450145b61617546f5ff91
+      internalID: -790709529
       vertices: []
       indices: 
       edges: []
@@ -461,7 +461,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0faddcaec767747439a494aac8f5059c
+    spriteID: 24a4769041994194dad782b53e2cbf4f
     internalID: 0
     vertices: []
     indices: 
@@ -469,22 +469,22 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mummy_idle_0: -1460513672
-      Mummy_idle_1: -1506427924
-      Mummy_idle_10: -192967516
-      Mummy_idle_11: 935798465
-      Mummy_idle_12: 920430637
-      Mummy_idle_13: 709904430
-      Mummy_idle_14: 1476613796
-      Mummy_idle_15: 698482254
-      Mummy_idle_2: -26570360
-      Mummy_idle_3: 1474274941
-      Mummy_idle_4: -1300403451
-      Mummy_idle_5: -1620441777
-      Mummy_idle_6: -1417895710
-      Mummy_idle_7: 1735886171
-      Mummy_idle_8: -1756198405
-      Mummy_idle_9: 370350041
+      Beholder_idle_0: -1696067046
+      Beholder_idle_1: -1315148925
+      Beholder_idle_10: -1840322227
+      Beholder_idle_11: -559266102
+      Beholder_idle_12: -901096752
+      Beholder_idle_13: -1740564106
+      Beholder_idle_14: 2071802600
+      Beholder_idle_15: -790709529
+      Beholder_idle_2: 20856368
+      Beholder_idle_3: -687266747
+      Beholder_idle_4: 42253203
+      Beholder_idle_5: -739582375
+      Beholder_idle_6: -260131193
+      Beholder_idle_7: 1773067055
+      Beholder_idle_8: 1419695558
+      Beholder_idle_9: -332301757
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
